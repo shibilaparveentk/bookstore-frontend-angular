@@ -1,0 +1,17 @@
+img{
+  height:600px;
+  width:600px;
+}
+
+.card{
+  background-color: rgb(239, 231, 219);
+
+}
+
+.logo {
+  width: 9.5rem;
+  border-radius: 50%;
+  height: 120px;
+ 
+
+}

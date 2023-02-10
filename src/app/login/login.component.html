@@ -1,0 +1,64 @@
+<section class="vh-100">
+    <!-- style="background-image: url( https://collegeinfogeek.com/wp-content/uploads/2018/11/Essential-Books.jpg); "-->
+  <div class="container py-5 h-100"> 
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col col-xl-10">
+        <div class="card" style="border-radius: 2rem;">
+          <div class="row g-0">
+            <div class="col-md-6 col-lg-5 d-none d-md-block ">
+              <img src="https://th-thumbnailer.cdn-si-edu.com/Z1IdB5_H4P7jnQ6G4ex9lEeoLuU=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/c2/19/c219ea2f-a154-46c0-93c0-dbb05d2cd6d9/8314929977_4d7e817d68_h.jpg"
+                alt="login form" class="img-fluid" style="border-radius: 2rem 0 0 2rem;" />
+            </div>
+            <div class="col-md-6 col-lg-7 d-flex align-items-center ">
+              <div class="card-body p-4 p-lg-5 text-black">
+
+                <form [formGroup]="loginForm">
+
+                  <div class="d-flex align-items-center mb-3 pb-1">
+                    <img src="https://i.pinimg.com/originals/e9/28/31/e9283190bf9341f2670f5c92670e832d.png" alt="no image" class="logo">
+                    <!-- <span class="h1 fw-bold mb-0">S-Books</span> -->
+                    <!-- <i class="fa-solid fa-book-open fa-2x me-3" style="color: #171615;"></i> -->
+                    
+                  </div>
+                 
+
+                  <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
+
+                  <div class="form-outline mb-4">
+                    <input formControlName="uname" name="uname" type="uname" id="form2Example17" class="form-control form-control-lg" />
+                    <label class="form-label" for="form2Example17"> Username</label>
+                    <!-- username validation (structural directive-ngIf) -->
+                    <p *ngIf="this.loginForm.get('uname')?.errors && this.loginForm.get('uname')?.touched" class="text-danger">
+                      Invalid Username
+                    </p>
+
+                    <h4 *ngIf="errMsg" style="color:red;"> {{errMsg}}</h4>
+                  </div>
+                
+                  <!-- <div class="form-outline mb-4">
+                    <input formControlName="psswd" name="psswd" id="pswd" type="password" class="form-control">
+                    <label class="form-label" for=" psswd">Password</label> -->
+                  <!-- password validation -->
+                  <!-- <p *ngIf="this.loginForm.get('psswd')?.errors && this.loginForm.get('psswd')?.touched" class="text-danger">
+                    Invalid Password
+                  </p>
+                  </div> -->
+
+                  <div class="pt-1 mb-4">
+                    <button (click)="login()" class="btn btn-dark btn-lg btn-block" type="button">Login</button>
+                  </div>
+                  <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="#!"
+                      style="color: #393f81;">Register here</a></p>
+                  <a href="#!" class="small text-muted">Terms of use.</a>
+                  <a href="#!" class="small text-muted">Privacy policy</a>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

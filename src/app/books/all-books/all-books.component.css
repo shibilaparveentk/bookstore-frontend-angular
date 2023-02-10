@@ -1,0 +1,65 @@
+.py-5 {
+  background-color: rgb(245, 239, 239);
+}
+
+
+nav {
+  background-color: rgb(245, 239, 239);
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+span {
+  font-family: 'Roboto Slab', serif;
+}
+
+
+
+img {
+  height: 350px;
+}
+
+.logo {
+  width: 9.5rem;
+  border-radius: 50%;
+  height: 120px;
+}
+
+.book {
+  align-items: center;
+  margin-left: 400px;
+  gap: 1.6rem;
+  margin-top: 8rem;
+  display: flex;
+}
+
+
+.book-imgs img {
+  height: 4.6rem;
+  width: 4.6rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
+
+.book-imgs img:last-child {
+  margin: 0;
+}
+
+.book {
+  align-items: center;
+  margin-left: 400px;
+
+}
+.navbar{
+  position: fixed;
+  width:100%;
+  z-index:1;
+  top: 0;
+}
+
+#search{
+ margin-left: 615px;
+}

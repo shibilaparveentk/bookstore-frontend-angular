@@ -1,0 +1,19 @@
+nav {
+  background-color: rgb(245, 239, 239);
+}
+
+span {
+  font-family: 'Roboto Slab', serif;
+}
+
+
+img {
+  height: 350px;
+}
+
+.navbar{
+  position: fixed;
+  width:100%;
+  z-index:1;
+  top: 0;
+}

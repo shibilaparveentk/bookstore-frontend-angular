@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": "Wings of Fire ",
+    "author": " A. P. J. Abdul Kalam and Arun Tiwari ",
+    "price": 799.00,
+    "description": "We are all born with a divine fire in us. Our efforts should be to give wings to this fire President Kalams inspiring autobiography has touched the hearts of people all over the world. The book talks about the his humble beginnings in a small village in Tamil Nadu and his ascent to one of the most powerful positions in the country .It is brilliantly narrated by Girish Karnard",
+    "image": "https://rukminim1.flixcart.com/image/416/416/juk4gi80/book/4/6/6/wings-of-fire-original-imaffmk4gx5pxqvf.jpeg?q=70",
+    "rating": {
+      "rate": 3.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 2,
+    "title": "The Happiest Man on Earth: The Beautiful Life of an Auschwitz Survivor",
+    "author": "Eddie Jaku",
+    "price": 600,
+    "description": "The Happiest Man on Earth (2020) is the true story of one man, who survived inconceivable horrors during the Holocaust, and afterward made it his mission to change the world for the better.",
+    "image": "https://m.media-amazon.com/images/I/91N3345D9pL.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
+  },
+  {
+    "id": 3,
+    "title": "You Better Be Lightning",
+    "author": "Andrea Gibson",
+    "price": 1487.72,
+    "description": "You Better Be Lightning by Andrea Gibson is a queer, political, and feminist collection guided by self-reflection.The poems range from close examination of the deeply personal to the vastness of the world, exploring the expansiveness of the human experience from love to illness, from space to climate change, and so much more in between.One of the most celebrated poets and performers of the last two decades, Andrea Gibsons trademark honesty and vulnerability are on full display in You Better Be Lightning, welcoming and inviting readers to be just as they are.",
+    "image": "https://cdn.shortpixel.ai/spai/q_glossy+w_450+to_auto+ret_img/https://buttonpoetry.com/wp-content/uploads/2021/06/Gibson-YBBL-cover-with-badges.png",
+    "rating": {
+      "rate": 4.7,
+      "count": 500
+    }
+  },
+  {
+    "id": 4,
+    "title": "What I Learned from the Trees",
+    "author": "L.E. Bowman",
+    "price": 1308.00,
+    "description": "What I Learned from the Trees delves into the intricate relationship between humans and nature, and how these often overlooked, everyday interactions affect us as individuals, families, and communities.",
+    "image": "https://cdn.shortpixel.ai/spai/q_glossy+w_450+to_auto+ret_img/https://buttonpoetry.com/wp-content/uploads/2021/03/Bowman-WILF-cover-with-badge.png",
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
+  },
+  {
+    "id": 5,
+    "title": "Something I Never Told You",
+    "author": "Shravya Bhinder",
+    "price": 159,
+    "description": "Something I Never Told, is a romantic love story of an average-looking guy named Ronnie, who lives in Delhi and has a one-sided love angle with a girl named Adira, who used to stay as a paying guest at his grandma's house. It has been three years that he was following her and not able to tell her about his feelings.",
+    "image": "https://m.media-amazon.com/images/I/51Xjv4IzydL._SX322_BO1,204,203,200_.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
+  },
+  {
+    "id": 6,
+    "title": "The Secret",
+    "author": "Rhonda Byrne",
+    "price": 180,
+    "description": "The Secret is a self-help book by Rhonda Byrne that explains how the law of attraction, which states that positive energy attracts positive things into your life, governs your thinking and actions, and how you can use the power of positive thinking to achieve anything you can imagine.",
+    "image": "https://m.media-amazon.com/images/I/51gddyfMFNL._SX384_BO1,204,203,200_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 70
+    }
+  },
+  {
+    "id": 7,
+    "title": "The Girl With No Dreams",
+    "author": "Deepak Gupta",
+    "price": 91,
+    "description": "A Story about Dreams, Hope and Death",
+    "image": "https://m.media-amazon.com/images/I/51mjIUvk7iS._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "rating": {
+      "rate": 3,
+      "count": 400
+    }
+  },
+  {
+    "id": 8,
+    "title": "Something I'm Waiting to Tell You ",
+    "author": "Shravya Bhinder",
+    "price": 123,
+    "description": "The story revolves around a young man (Ronnie) and the love of his life (Adira)",
+    "image": "https://m.media-amazon.com/images/I/41XVD5lLWXL._SX314_BO1,204,203,200_.jpg",
+    "rating": {
+      "rate": 1.9,
+      "count": 100
+    }
+  },
+  {
+    "id": 9,
+    "title": "Emma : Penguin Classics",
+    "author": "Jane Austen",
+    "price": 582,
+    "description": "Emma is a novel about youthful hubris and romantic misunderstandings, written by Jane Austen",
+    "image": "https://rukminim1.flixcart.com/image/416/416/kufuikw0/book/t/6/o/emma-original-imag7jh3hzfvjp3b.jpeg?q=70",
+    "rating": {
+      "rate": 3.3,
+      "count": 203
+    }
+  },
+  {
+    "id": 10,
+    "title": "WhenI am With You",
+    "author": "Durjoy Datta",
+    "price": 139.30,
+    "description": "The book talks about revolutionising childcare. ",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2022/9/KM/DN/KB/113288716/where-i-am-with-you-500x500.jpg",
+    "rating": {
+      "rate": 2.9,
+      "count": 470
+    }
+  },
+  {
+    "id": 11,
+    "title": "Beloved",
+    "author": "Toni Morrison",
+    "price": 359.00,
+    "description": "Beloved, novel by Toni Morrison, published in 1987 and winner of the 1988 Pulitzer Prize for fiction. The work examines the destructive legacy of slavery as it chronicles the life of a Black woman named Sethe, from her pre-Civil War days as a slave in Kentucky to her time in Cincinnati, Ohio, in 1873.",
+    "image": "https://m.media-amazon.com/images/I/81eerT6DQFL.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 319
+    }
+  },
+  {
+    "id": 12,
+    "title": "",
+    "author": "",
+    "price": 114,
+    "description": "",
+    "image": "",
+    "rating": {
+      "rate": 4.8,
+      "count": 400
+    }
+  },
+  {
+    "id": 13,
+    "title": "Godan",
+    "author": "Munshi Premchand",
+    "price": 253.00,
+    "description": "Godan, generally considered Premchand's masterpiece, is a story of peasant India. It highlights the struggle between the peasant and the money-lender backed by various forces. It depicts an agricultural community with its hard work and simple pleasures, its exploitations and misery, its frustrations and hopes",
+    "image": "https://4.bp.blogspot.com/-HFFusVCAH6I/WUEK4Pglr0I/AAAAAAAABx8/vJ0p_wLMDrEoDGJE4mtyhZmCIvXknM2wgCLcBGAs/s1600/godan%2Bimage.jpg",
+    "rating": {
+      "rate": 2.9,
+      "count": 250
+    }
+  },
+  {
+    "id": 14,
+    "title": "I too had a love story",
+    "author": " Ravinder Singh.",
+    "price": 119,
+    "description": "I too had a love story that is a heart wrenching and yet very honest and simple love story. It's based on Ravindra Singh's own life. ",
+    "image": "https://m.media-amazon.com/images/I/81fxf8EaTgL.jpg",
+    "rating": {
+      "rate": 2.2,
+      "count": 140
+    }
+  },
+  {
+    "id": 15,
+    "title": "Can't Quarantine Our Love",
+    "author": "Sudeep Nagarkar",
+    "price": 172.00,
+    "description": "Can't Quarantine Our Love is an epic love story of two neighbours with a twist of fate that puts everything they know to a heartbreaking test.",
+    "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/13312774/13312774-1620030865155-12950d241e8bc.jpg",
+    "rating": {
+      "rate": 2.6,
+      "count": 235
+    }
+  },
+  {
+    "id": 16,
+    "title": "A game of thrones",
+    "author": "George RR Martin",
+    "price": 476.00,
+    "description": "A Game of Thrones is set in medieval times with a knights-and-ladies sort of kingdom, and a wider, exotic world around it.",
+    "image": "https://img.bookchor.com/images/cover/509/9780006479888.jpg",
+    "rating": {
+      "rate": 2.9,
+      "count": 340
+    }
+  },
+  {
+    "id": 17,
+    "title": "400 Days",
+    "author": "Chetan Bhagat",
+    "price": 180.00,
+    "description": "400 Days' is the story of Alia, a mother who is determined to find her missing son while grappling with a failing marriage and individuality",
+    "image": "https://www.bookgeeks.in/wp-content/uploads/2021/10/400-Days-by-Chetan-Bhagat-1200x1777.jpg",
+    "rating": {
+      "rate": 3.8,
+      "count": 679
+    }
+  },
+  {
+    "id": 18,
+    "title": " Everything, Everything",
+    "author": "Nicola Yoon",
+    "price": 277.00,
+    "description": "The story follows 18-year-old Madeline Whittier, a half Japanese, half African-American 18-year-old who is being treated by her doctor mother for severe combined immunodeficiency (SCID), and therefore is not allowed to leave her house or interact with anything that has not been sanitized",
+    "image": "https://m.media-amazon.com/images/I/51FVjbV44cL._SL500_.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 130
+    }
+  },
+  {
+    "id": 19,
+    "title": "Cloud Cuckoo Land",
+    "author": "Anthony Doerr",
+    "price": 725.00,
+    "description": "Cloud Cuckoo Land follows five characters whose stories, despite spanning nearly six centuries, are bound together by their mutual love for a single book. Twelve-year-old Anna, an orphan, lives inside the formidable walls of Constantinople in a house of women who make their living embroidering the robes of priests.",
+    "image": "https://m.media-amazon.com/images/I/51i+A5q7bDL.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 146
+    }
+  },
+  {
+    "id": 20,
+    "title": "Our Story Needs No Filter",
+    "author": "Sudeep Nagarkar",
+    "price": 800.00,
+    "description": "Our Story Needs No Filter by Sudeep Nagarkar is his ninth novel and he is again telling a story that can melt your hearts. Sudeep, an award-winning romance author, has written Our Story Needs No Filter that brings out the dark shades of relationships on the backdrop of student politics.",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497760625i/35455128._UY500_SS500_.jpg",
+    "rating": {
+      "rate": 3.6,
+      "count": 145
+    }
+  }
+]

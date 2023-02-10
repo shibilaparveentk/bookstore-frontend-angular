@@ -1,0 +1,94 @@
+<!--when wishlist is empty-->
+<div class="container mt-5 border border-light p-5" *ngIf="emsg">
+  <div class="row text-center">
+    <div class="col">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQupRBiq3OB9OufRvPIYgCuWMeUckJ5gQOAtno1z1MpqTDA9ceqfLPV-ZJ68ijNX00j_w8&usqp=CAU"
+        alt="no image" class="ig">
+      <h3 class="mt-2">Your Wishlist is empty</h3>
+      <a routerLink="/books" class="btn btn-primary mt-2">Add to Wish List</a>
+    </div>
+  </div>
+</div>
+
+
+<!---------------------------->
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light " *ngIf="!emsg">
+  <div class="container px-4 px-lg-5">
+    <div class="col-lg-6">
+      <a class="navbar-brand" href="books">
+        <!-- <i class="fa-solid fa-book-open"></i>  -->
+        <span>S-Books</span></a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+        class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+        <!-- <li class="nav-item"><a class="nav-link active" aria-current="page" href="books"><span>Home</span></a></li>
+        <li class="nav-item"><a class="nav-link active" href="books"><span>About</span></a></li> &nbsp; -->
+        <li class="nav-item">
+          <input (keyup)="search($event)" placeholder="Search Book" type="text" class="form-control">
+        </li>
+      </ul>
+
+      <form class="d-flex">
+        <a routerLink="/wishlist" class="btn btn-outline-dark" type="submit">
+          <i class="fa-solid fa-heart-circle-plus"></i>
+          Wishlist
+        </a>
+        &nbsp;
+        <a routerLink="/cart" class="btn btn-outline-dark" type="submit">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
+          <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+        </a>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+<!---------------------------->
+
+
+
+
+<!-- Section-->
+<section class="py-5" *ngIf="!emsg && wishlist.length> 0">
+  <div class="container px-4 px-lg-5 mt-5">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+      <div class="col mb-5" *ngFor=" let book of wishlist   | filter:searchTerm:'title'">
+        <div class="card h-100 align-items-center ">
+          <!-- book image-->
+          <img class="card-img-top" [src]="book.image" alt="no-image" />
+          <!-- book details-->
+          <div class="card-body p-4">
+            <div class="text-center">
+              <!-- book name-->
+              <h5 class="fw-bolder"> {{book.title}} </h5>
+              <!-- book price-->
+              Rs.{{book.price}}/-
+            </div>
+          </div>
+          <!-- book actions-->
+          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <div class="text-center">
+            </div>
+            <hr>
+            <div class="text-center">
+              <button (click)="deletefromwishlist(book)" class="btn btn-outline-dark mt-auto">
+                <i class=" fa fa-trash text-danger"></i>
+              </button> &nbsp;
+              <button (click)="addtocart(book)" class="btn btn-outline-dark mt-auto">
+                <i class="fa-solid fa-cart-shopping text-success"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

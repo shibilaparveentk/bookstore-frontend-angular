@@ -1,0 +1,121 @@
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container px-4 px-lg-5">
+
+    <a class="navbar-brand" href="books">
+      <span>S-Books</span></a> 
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+        class="navbar-toggler-icon"></span></button> -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" routerLink="about">
+          
+        <span>Home</span></a>
+        </li>
+        <li class="nav-item" id="search">
+          <input (keyup)="search($event)" placeholder="Search Book" type="text" class="form-control">
+        </li>
+      </ul>
+      <form class="d-flex">
+        <a routerLink="wishlist" class="btn btn-outline-dark" type="submit">
+          <i class="fa-solid fa-heart-circle-plus"></i>
+          Wishlist
+        </a>
+        &nbsp;
+        <a routerLink="cart" class="btn btn-outline-dark" type="submit">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
+          <span class="badge bg-dark text-white ms-1 rounded-pill">{{cartItemscount}}</span>
+        </a>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!--------------------------------------------->
+<!-- Header-->
+<header class="bg-dark py-5">
+  <div class="container px-3 px-lg-3 my-4">
+    <div class="text-center text-white">
+
+      <img src="https://i.pinimg.com/originals/e9/28/31/e9283190bf9341f2670f5c92670e832d.png" alt="no image"
+        class="logo">
+      <h1 class="display-4 fw-bolder">S-BOOKS</h1>
+
+      <div class="books">
+        <div class="book-imgs">
+
+          <img src="https://m.media-amazon.com/images/I/81fxf8EaTgL.jpg" alt="no-image" />
+          <img src="https://img.bookchor.com/images/cover/509/9780006479888.jpg" alt="no-image" />
+          <img src="https://m.media-amazon.com/images/I/51FVjbV44cL._SL500_.jpg" alt="no-image" />
+          <img
+            src="https://rukminim1.flixcart.com/image/416/416/kufuikw0/book/t/6/o/emma-original-imag7jh3hzfvjp3b.jpeg?q=70"
+            alt="no-image" />
+          <img src="https://m.media-amazon.com/images/I/41XVD5lLWXL._SX314_BO1,204,203,200_.jpg" alt="customer photo" />
+          <img
+            src="https://rukminim1.flixcart.com/image/416/416/juk4gi80/book/4/6/6/wings-of-fire-original-imaffmk4gx5pxqvf.jpeg?q=70"
+            alt="no-image" />
+          <img src="https://m.media-amazon.com/images/I/91N3345D9pL.jpg" alt="customer photo" />
+          <img
+            src="https://cdn.shortpixel.ai/spai/q_glossy+w_450+to_auto+ret_img/https://buttonpoetry.com/wp-content/uploads/2021/03/Bowman-WILF-cover-with-badge.png"
+            alt="no-image" />
+          <img src="https://previews.123rf.com/images/luka007/luka0071601/luka007160100985/50665073-add-book-icon.jpg"
+            alt="no-image" />
+        </div>
+      </div>&nbsp;
+      <p class="lead fw-normal text-white-50 mb-0">Explore the collection and shop for books online</p>
+    </div>
+  </div>
+</header>
+<!--------------------------------------------->
+
+
+
+<!-- Section-->
+<section class="py-5">
+  <div class="container px-4 px-lg-5 mt-5">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+      <div class="col mb-5" *ngFor="let book of allBooks  | filter:searchTerm:'title'   ">
+        <div class="card h-100 align-items-center">
+          <!-- book image-->
+          <img class="card-img-top" [src]="book.image" alt="no-image" />
+          <!-- book details-->
+          <div class="card-body p-4">
+            <div class="text-center">
+              <!-- book name-->
+              <h5 class="fw-bolder"> {{book.title}}</h5>
+              <!-- book price-->
+              Rs.{{book.price}}/-
+            </div>
+          </div>
+          <!-- book actions-->
+          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <!-- <div class="text-center">
+              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              View Details
+              </button>
+            </div> -->
+            <hr>
+            <div class="text-center">
+              <button (click)="addtowishlist(book)" class="btn btn-outline-dark mt-auto">
+                <i class="fa fa-heart text-danger"></i>
+              </button> &nbsp;
+              <button (click)="addtocart(book)" class="btn btn-outline-dark mt-auto">
+                <i class="fa-solid fa-cart-shopping text-success"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer-->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; S-Books</p>
+  </div>
+</footer>
